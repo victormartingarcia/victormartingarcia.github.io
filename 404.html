@@ -7,27 +7,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" href="{{ '/static/font-awesome/css/font-awesome.min.css'|url }}">
+  <link rel="stylesheet" type="text/css" href="/static/font-awesome/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="{{ '/static/style.min.css'|url }}">
+    <link rel="stylesheet" href="/static/style.min.css">
 
-    <title>{% block title %}Welcome{% endblock %}</title>
+    <title>Page not found</title>
 
 </head>
 <body>
   <aside>
     <div>
-      <a href="{{ '/'|url }}">
-        <img src="{{ '/img/victor.png'|url }}" alt="victor" title="victor">
+      <a href="/">
+        <img src="/img/victor.png" alt="victor" title="victor">
       </a>
-      <h1><a href="{{ '/'|url }}">Victor Martin</a></h1>
+      <h1><a href="/">Victor Martin</a></h1>
       <p>Software Engineer</p>
 
       <!--<nav>
         <ul class="list">
-          <li><a href="{{ '/'|url }}">Home</a></li>
-          <li><a href="{{ '/articles'|url }}">Articles</a></li>
-          <li><a href="{{ '/about'|url }}">About</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/articles">Articles</a></li>
+          <li><a href="/about">About</a></li>
       </ul>
       </nav>-->
 
@@ -47,7 +47,11 @@
       <span>victormartingarcia.com</span>
     </nav>
 
-    {% block body %}{% endblock %}
+    
+<script type="text/javascript">
+  document.location.href="/";
+</script>
+
 
     <footer>
       <p>
