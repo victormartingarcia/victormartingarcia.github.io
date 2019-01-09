@@ -1,0 +1,11 @@
+[project]
+name = victormartingarcia
+url_style = absolute
+
+[servers.ghpages+https]
+target = ghpages+https://victormartingarcia/victormartingarcia.github.io?cname=www.victormartingarcia.com
+
+[alternatives.en]
+name = English
+primary = yes
+locale = en_US
